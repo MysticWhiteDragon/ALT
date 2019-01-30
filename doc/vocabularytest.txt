@@ -1,5 +1,6 @@
 <style>
 @page { size: B4 landscape; }
+body { size: B4 landscape; }
 
 .vlist { padding: 0 2mm; }
 .vheight { height: 10mm; }
