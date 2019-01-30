@@ -287,6 +287,12 @@ function docZoom() {
      xhr.setRequestHeader('Content-type', 'text/html');
   xhr.send();
  }
+ 
+ document.body.classList.add(urld.searchParams.get('size'));
+ if(urld.searchParams.get('or') == "l")
+ {
+	document.body.classList.add("landscape");
+ }
 }
 </script>
 
