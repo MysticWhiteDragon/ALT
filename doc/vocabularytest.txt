@@ -15,7 +15,7 @@ body     .sheet { size: B4 landscape; width: 353mm; height: 249mm; }}
 	overflow: hidden;
 }
 
-.vheightj { vertical-align: bottom; fheight: 7mm; }
+.vheightj { vertical-align: bottom; height: 7mm; }
 .vheightj > td { vertical-align: bottom; font-size: 10pt;}
 .vheightj textarea {
 	border: 0;
