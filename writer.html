@@ -4,11 +4,12 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 <title></title>
 <link rel="stylesheet" type="text/css" href="css/menu.css">
+<link rel="stylesheet" type="text/css" href="css/paper.css">
 <link rel="stylesheet" type="text/css" href="css/ribbonui.css">
 <style>
 @page { size: A4; }</style>
 </head>
-<body class="A4">
+<body class="A4" onload="OpenDoc()">
 <input id="hamburger" class="hamburger" type="checkbox" />
 <label for="hamburger" class="hamburger"><i></i><text><close>close</close><open>menu</open></text></label>
 <script language="JavaScript" src="js/menu.js"></script>
@@ -218,8 +219,6 @@
     </div>
 	<div id="docspace">
     <div id="content">
-		<section class="sheet padding-10mm">
-		</section>
    </div>
     </div>
     <div id="footer"  class="no-print" style="position:absolute; bottom:0px; height:25px; left:58px; right: 0px; overflow:hidden; background-color: #3c6478;">
@@ -263,10 +262,31 @@ function docZoom() {
   var selval = document.getElementById("doczoom").value;
   var elem = document.getElementById("content");
 
-//  elem.style.transform = "scale("+ selval + ")";
-//  elem.style.width = selval * 100 + "%";
-//  elem.style.height = selval * 100 + "%";
 	elem.style.zoom = selval;
+}
+
+ function OpenDoc(e){
+// e.preventDefault();
+ 
+ 	var url = window.location.href;
+	var urld = new URL(url);
+	var dir = url.substring(0, url.lastIndexOf("/")+1);
+	var doc = dir + "doc/" + urld.searchParams.get("doc/") + ".txt";
+ 
+ if(urld.searchParams.get("doc") != null)
+ {
+  var con = document.getElementById('content');
+  var xhr = new XMLHttpRequest();
+  xhr.onreadystatechange = function(e) {
+     if(xhr.readyState == 4 && xhr.status == 200) {
+     con.innerHTML = xhr.responseText;
+     }
+     }
+
+  xhr.open("GET",doc, true);
+     xhr.setRequestHeader('Content-type', 'text/html');
+  xhr.send();
+ }
 }
 </script>
 
