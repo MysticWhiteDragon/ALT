@@ -271,7 +271,7 @@ function docZoom() {
  	var url = window.location.href;
 	var urld = new URL(url);
 	var dir = url.substring(0, url.lastIndexOf("/")+1);
-	var doc = dir + "doc/" + urld.searchParams.get("doc/") + ".txt";
+	var doc = dir + "doc/" + urld.searchParams.get("doc") + ".txt";
  
  if(urld.searchParams.get("doc") != null)
  {
