@@ -288,10 +288,10 @@ function docZoom() {
   xhr.send();
  }
  
- document.body.classList.add(" " + urld.searchParams.get('size'));
+ document.body.classList.add(urld.searchParams.get('size'));
  if(urld.searchParams.get('or') == l)
  {
-	document.body.classList.add(" landscape");
+	document.body.classList.add("landscape");
  }
 }
 </script>
