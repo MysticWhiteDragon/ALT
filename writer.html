@@ -263,6 +263,7 @@ function docZoom() {
   var elem = document.getElementById("content");
 
 	elem.style.zoom = selval;
+	elem.style.MozTransform = 'scale(' + selval + ')';
 }
 
  function OpenDoc(e){
