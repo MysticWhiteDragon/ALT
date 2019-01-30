@@ -15,7 +15,7 @@ document.writeln('			</li>');
 document.writeln('			<li><a title="GAMES"><svg class="icon"><use xlink:href="#icon-mail_outline"></use></svg> Games</a>');
 document.writeln('				<ul class="secnav">');
 document.writeln('					<li><a title="Classroom Clash" href="clash.html">Classroom Clash</a></li>');
-document.writeln('					<li><a title="Wheel of Knowledge" href="weel.html">Wheel of Knowledge</a></li>');
+document.writeln('					<li><a title="Wheel of Knowledge" href="wheel.html">Wheel of Knowledge</a></li>');
 document.writeln('					<li><a title="Trivia" href="trivia.html">Trivia</a></li>');
 document.writeln('					<li><a title="English Card Game" href="cardgame.html">English Card Game<div class="tag">Size: B5</div></a></li>');
 document.writeln('				</ul>');
