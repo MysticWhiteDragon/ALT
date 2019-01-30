@@ -272,10 +272,11 @@ function docZoom() {
 	var urld = new URL(url);
 	var dir = url.substring(0, url.lastIndexOf("/")+1);
 	var doc = dir + "doc/" + urld.searchParams.get("doc/") + ".txt";
-	alert(doc);
  
  if(urld.searchParams.get("doc") != null)
  {
+	alert(doc);
+/*
   var con = document.getElementById('content');
   var xhr = new XMLHttpRequest();
   xhr.onreadystatechange = function(e) {
@@ -287,6 +288,7 @@ function docZoom() {
   xhr.open("GET",doc, true);
      xhr.setRequestHeader('Content-type', 'text/html');
   xhr.send();
+*/
  }
 }
 </script>
