@@ -9,7 +9,7 @@
 <style>
 @page { size: A4; }</style>
 </head>
-<body class="A4" onload="OpenDoc()">
+<body onload="OpenDoc()">
 <input id="hamburger" class="hamburger" type="checkbox" />
 <label for="hamburger" class="hamburger"><i></i><text><close>close</close><open>menu</open></text></label>
 <script language="JavaScript" src="js/menu.js"></script>
@@ -288,7 +288,7 @@ function docZoom() {
   xhr.send();
  }
  
- document.getElementsByName("body")[0].className.replace("A4", urld.searchParams.get('size'));
+ document.getElementsByName("body")[0].classList.add("A4", urld.searchParams.get('size'));
 }
 </script>
 
