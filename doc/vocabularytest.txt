@@ -3,7 +3,7 @@
 body     .sheet { size: B4 landscape; width: 353mm; height: 249mm; }}
 
 .vlist { padding: 0 2mm; }
-.vheight { height: 10mm; }
+.vheight { vertical-align: bottom; fheight: 10mm; }
 .vheight textarea {
 	border: 1px dotted black;
 	width: 65mm;
@@ -15,7 +15,7 @@ body     .sheet { size: B4 landscape; width: 353mm; height: 249mm; }}
 	overflow: hidden;
 }
 
-.vheightj { height: 7mm; }
+.vheightj { vertical-align: bottom; fheight: 7mm; }
 .vheightj > td { vertical-align: bottom; font-size: 10pt;}
 .vheightj textarea {
 	border: 0;
