@@ -1,0 +1,102 @@
+@page { margin: 0; }
+body  {
+	margin: 0;
+	font-family: 'didact_gothicregular';
+}
+
+.sheet {
+	margin: 0;
+//	overflow: hidden;
+	position: relative;
+	box-sizing: border-box;
+	page-break-after: always;
+}
+
+/** Paper Sizes **/   /** height - 1 to stop unwanted page breaks **/
+body.A3               .sheet { width: 297mm; height: 419mm; }
+body.A3.landscape     .sheet { width: 420mm; height: 296mm; }
+body.A4               .sheet { width: 210mm; height: 296mm; }
+body.A4.landscape     .sheet { width: 297mm; height: 209mm; }
+body.A5               .sheet { width: 148mm; height: 209mm; }
+body.A5.landscape     .sheet { width: 210mm; height: 147mm; }
+
+body.B4               .sheet { width: 250mm; height: 352mm; }
+body.B4.landscape     .sheet { width: 353mm; height: 249mm; }
+body.B5               .sheet { width: 176mm; height: 249mm; }
+body.B5.landscape     .sheet { width: 250mm; height: 175mm; }
+
+body.JB4              .sheet { width: 257mm; height: 363mm; }
+body.JB4.landscape    .sheet { width: 364mm; height: 256mm; }
+body.JB5              .sheet { width: 182mm; height: 256mm; }
+body.JB5.landscape    .sheet { width: 257mm; height: 181mm; }
+
+body.letter           .sheet { width: 216mm; height: 279mm; }
+body.letter.landscape .sheet { width: 280mm; height: 215mm; }
+body.legal            .sheet { width: 216mm; height: 356mm; }
+body.legal.landscape  .sheet { width: 357mm; height: 215mm; }
+
+/** Padding area **/
+.sheet.padding-0mm  { padding:  0mm; }
+.sheet.padding-5mm  { padding:  5mm; }
+.sheet.padding-10mm { padding: 10mm; }
+.sheet.padding-15mm { padding: 15mm; }
+.sheet.padding-20mm { padding: 20mm; }
+.sheet.padding-25mm { padding: 25mm; }
+
+/** For Screen Preview **/
+@media screen {
+	body { background: #e0e0e0; }
+	.sheet {
+		background: white;
+		box-shadow: 0 .5mm 2mm rgba(0, 0, 0, .3);
+		margin: 5mm auto;
+	}
+    .no-screen, .no-screen * { display: none !important; width: 0; height: 0; }
+	
+	#docspace {
+		position:absolute;
+		top:165px;
+		bottom:25px;
+		left:58px;
+		right: 0px;
+		overflow:auto;
+	}
+	
+	#content {
+		zoom: 1;
+	}
+}
+
+/** Fix for Chromee issune #273306 **/
+@media print {
+	body {
+		margin: 0cm;
+		-webkit-print-color-adjust: exact !important;
+	}
+	
+	          body.A3.landscape  { width: 420mm; }
+	body.A3,  body.A4.landscape  { width: 297mm; }
+	body.A4,  body.A5.landscape  { width: 210mm; }
+	body.A5                      { width: 148mm; }
+
+	          body.B4.landscape  { width: 353mm; }
+	body.B4,  body.B5.landscape  { width: 250mm; }
+	body.B5                      { width: 176mm; }
+
+	          body.JB4.landscape { width: 364mm; }
+	body.JB4, body.JB5.landscape { width: 257mm; }
+	body.JB5                     { width: 182mm; }
+
+	body.letter, body.legal      { width: 216mm; }
+	body.letter.landscape        { width: 280mm; }
+	body.legal.landscape         { width: 357mm; }
+	
+	.no-print, .no-print * { display: none !important; }
+	
+	#content {
+		zoom: 1 !important;
+		max-zoom: 1;
+		min-zoom: 1;
+
+	}
+}

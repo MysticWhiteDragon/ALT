@@ -1,0 +1,193 @@
+ribbonui {
+	font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Roboto", "Ubuntu", "Helvetica Neue", sans-serif;
+	font-size: 1rem;
+    line-height: 1.5;
+    font-style: normal;
+    font-weight: 400;
+    color: #212121;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+titlebar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 35px;
+    line-height: 35px;
+    padding: 0 0 0 15px;
+    border-bottom: 1px transparent solid;
+    cursor: default;
+    vertical-align: middle;
+    background-color: #3c6478;
+    color: #ffffff;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+ribbonui {
+	background-color: white;
+	display: block;
+	position: relative;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 130px;
+}
+
+ribbontabs {
+	position: absolute;
+
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+	
+	display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    list-style: none inside;
+    margin: 0;
+    padding: 0;
+	padding-top: 5px;
+    position: relative;
+//	width: 100%;
+	bottom: 0;
+	height: 22px;
+    border-bottom: 1px solid #dadbdc;
+
+//	text-transform: uppercase;
+}
+
+ribbontabs > button {
+    margin: 0;
+    padding: 0;
+    position: relative;
+	outline: none;
+
+	text-transform: uppercase;
+
+
+
+	border-top: 0;
+	border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+    border-bottom: 1px solid #dadbdc;
+//	border-bottom: 0;
+    display: block;
+    height: 24px;
+    line-height: 24px;
+
+    text-decoration: none;
+    padding: 0 14px;
+	font: inherit;
+    font-size: 12px;
+    background-color: inherit;
+    color: inherit;
+	text-decoration: none;
+
+	white-space: nowrap;
+}
+
+.tabfile {
+	border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+    border-bottom: 1px solid #dadbdc;
+    display: block;
+    height: 24px;
+    line-height: 24px;
+
+    text-decoration: none;
+    padding: 0 14px;
+    font-size: 12px;
+    background-color: inherit;
+    color: inherit;
+
+    background-color: #1979ca;
+    color: #ffffff;
+}
+
+.tabactive {
+	background-color: #f5f6f7;
+    border: 1px solid #dadbdc;
+    border-bottom-color: transparent;
+}
+
+ribboncontents {
+    display: block;
+    position: relative;
+	height: 100px;
+
+	background-color: #f5f6f7;
+    border-left: none;
+    border-right: none;
+	border-bottom: 1px solid #dadbdc;
+}
+
+.ribboncontent {
+  display: none;
+  padding: 0px;
+  border: 0;
+  position: relative;
+  height: 100%;
+  overflow-y: hidden;
+}
+
+.ribboncontent {
+  display: none;
+  padding: 0px;
+  border: 0;
+  position: relative;
+  height: 100%;
+  overflow-y: hidden;
+}
+
+ribbongroup {
+	display: block;
+	position: relative;
+	height: 85px;
+	padding: 0 4px 15px 4px;
+	float: left;
+	border-right: 1px solid #dadbdc;
+}
+
+ribbongroup::after {
+	content: attr(title);
+    display: block;
+    position: absolute;
+	left: 5px;
+	right: 5px;
+    bottom: 5px;
+    line-height: 18px;
+    height: 15px;
+    font-size: 11px;
+    text-align: center;
+    border-top: 1px solid #dadbdc;
+}
+
+#content {
+	width: 100%;
+	height: 100%;
+}

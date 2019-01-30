@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title></title>
+<link rel="stylesheet" type="text/css" href="css/menu.css">
+<link rel="stylesheet" type="text/css" href="css/ribbonui.css">
+</head>
+<body>
+<input id="hamburger" class="hamburger" type="checkbox" />
+<label for="hamburger" class="hamburger"><i></i><text><close>close</close><open>menu</open></text></label>
+<script language="JavaScript" src="menu.js"></script>
+
+
+    <div id="header" class="no-print" style="position:absolute; top:0px; left:58px; right: 0px; height:165px;overflow:hidden;">
+<titlebar>Writer<div class="buttons"><span class="btn-min"></span><span class="btn-max"></span><span class="btn-close"></span></div></titlebar>
+<ribbonui>
+	<ribbontabs>
+		<button class="tablinks tabfile" onclick="openRibbonTab(event, 'File')">File</button>
+		<button class="tablinks" onclick="openRibbonTab(event, 'Home')" id="defaultOpen">Home</button>
+		<button class="tablinks" onclick="openRibbonTab(event, 'Insert')">Insert</button>
+		<button class="tablinks" onclick="openRibbonTab(event, 'Design')">Design</button>
+		<button class="tablinks" onclick="openRibbonTab(event, 'Page')">Page Layout</button>
+		<button class="tablinks" onclick="openRibbonTab(event, 'References')">References</button>
+		<button class="tablinks" onclick="openRibbonTab(event, 'Mail')">Mailings</button>
+		<button class="tablinks" onclick="openRibbonTab(event, 'Review')">Review</button>
+		<button class="tablinks" onclick="openRibbonTab(event, 'View')">View</button>
+		<button class="tablinks" onclick="openRibbonTab(event, 'TableDesign')">Design</button>
+		<button class="tablinks" onclick="openRibbonTab(event, 'TableLayout')">Layout</button>
+	</ribbontabs>
+	<ribboncontents>
+		<div id="File" class="ribboncontent">
+			File 
+		</div>
+		<div id="Home" class="ribboncontent">
+			<ribbongroup title="Clipboard">
+				-----------
+			</ribbongroup>
+			<ribbongroup title="Font">
+				-----------<br>
+			</ribbongroup>
+			<ribbongroup title="Paragraph">
+				-----------<br>
+			</ribbongroup>
+			<ribbongroup title="Styles">
+				-----------<br>
+			</ribbongroup>
+			<ribbongroup title="Editing">
+				-----------<br>
+			</ribbongroup>
+		</div>
+		<div id="Insert" class="ribboncontent">
+			<ribbongroup title="Pages">
+				-----------<br>
+			</ribbongroup>
+			<ribbongroup title="Tables">
+				-----------<br>
+			</ribbongroup>
+			<ribbongroup title="Illustrations">
+				-----------<br>
+			</ribbongroup>
+			<ribbongroup title="Add-ins">
+				-----------<br>
+			</ribbongroup>
+			<ribbongroup title="Media">
+				-----------<br>
+			</ribbongroup>
+			<ribbongroup title="Links">
+				-----------<br>
+			</ribbongroup>
+			<ribbongroup title="Comments">
+				-----------<br>
+			</ribbongroup>
+			<ribbongroup title="HEader & Footer">
+				-----------<br>
+			</ribbongroup>
+			<ribbongroup title="Text">
+				-----------<br>
+			</ribbongroup>
+			<ribbongroup title="Symbols">
+				-----------<br>
+			</ribbongroup>
+		</div>
+		<div id="Design" class="ribboncontent">
+			<ribbongroup title="Document Formatiing">
+				-----------<br>
+			</ribbongroup>
+			<ribbongroup title="Page Background">
+				-----------<br>
+			</ribbongroup>
+		</div>
+		<div id="Page" class="ribboncontent">
+			<ribbongroup title="Page Setup">
+				-----------<br>
+			</ribbongroup>
+			<ribbongroup title="Paragraph">
+				-----------<br>
+			</ribbongroup>
+			<ribbongroup title="Arrange">
+				-----------<br>
+			</ribbongroup>
+		</div>
+		<div id="References" class="ribboncontent">
+			<ribbongroup title="Table of Contents">
+				-----------<br>
+			</ribbongroup>
+			<ribbongroup title="Footnotes">
+				-----------<br>
+			</ribbongroup>
+			<ribbongroup title="Citations & Bibliograhy">
+				-----------<br>
+			</ribbongroup>
+			<ribbongroup title="Captions">
+				-----------<br>
+			</ribbongroup>
+			<ribbongroup title="Index">
+				-----------<br>
+			</ribbongroup>
+			<ribbongroup title="Types of Authorities">
+				-----------<br>
+			</ribbongroup>
+		</div>
+		<div id="Mail" class="ribboncontent">
+			<ribbongroup title="Create">
+				-----------<br>
+			</ribbongroup>
+			<ribbongroup title="Start Mail Merge">
+				-----------<br>
+			</ribbongroup>
+			<ribbongroup title="Write & Insert Fields">
+				-----------<br>
+			</ribbongroup>
+			<ribbongroup title="Preview Results">
+				-----------<br>
+			</ribbongroup>
+			<ribbongroup title="Finish">
+				-----------<br>
+			</ribbongroup>
+		</div>
+		<div id="Review" class="ribboncontent">
+			<ribbongroup title="Proofing">
+				-----------<br>
+			</ribbongroup>
+			<ribbongroup title="Language">
+				-----------<br>
+			</ribbongroup>
+			<ribbongroup title="Comments">
+				-----------<br>
+			</ribbongroup>
+			<ribbongroup title="Tracking">
+				-----------<br>
+			</ribbongroup>
+			<ribbongroup title="Changes">
+				-----------<br>
+			</ribbongroup>
+			<ribbongroup title="Compare">
+				-----------<br>
+			</ribbongroup>
+			<ribbongroup title="Protect">
+				-----------<br>
+			</ribbongroup>
+		</div>
+		<div id="View" class="ribboncontent">
+			<ribbongroup title="Views">
+				-----------<br>
+			</ribbongroup>
+			<ribbongroup title="Show">
+				-----------<br>
+			</ribbongroup>
+			<ribbongroup title="Zoom">
+				-----------<br>
+			</ribbongroup>
+			<ribbongroup title="Window">
+				-----------<br>
+			</ribbongroup>
+			<ribbongroup title="Macros">
+				-----------<br>
+			</ribbongroup>
+		</div>
+		<div id="TableDesign" class="ribboncontent">
+			<ribbongroup title="Table Style Options">
+				-----------<br>
+			</ribbongroup>
+			<ribbongroup title="Table Styles">
+				-----------<br>
+			</ribbongroup>
+			<ribbongroup title="Borders">
+				-----------<br>
+			</ribbongroup>
+		</div>
+		<div id="TableLayout" class="ribboncontent">
+			<ribbongroup title="Table">
+				-----------<br>
+			</ribbongroup>
+			<ribbongroup title="Draw">
+				-----------<br>
+			</ribbongroup>
+			<ribbongroup title="Rows & Columns">
+				-----------<br>
+			</ribbongroup>
+			<ribbongroup title="Merge">
+				-----------<br>
+			</ribbongroup>
+			<ribbongroup title="Cell Size">
+				-----------<br>
+			</ribbongroup>
+			<ribbongroup title="Alignment">
+				-----------<br>
+			</ribbongroup>
+			<ribbongroup title="Data">
+				-----------<br>
+			</ribbongroup>
+		</div>
+	</ribboncontents>
+</ribbonui>
+    </div>
+	<div id="docspace">
+    <div id="content">
+   </div>
+    </div>
+    <div id="footer"  class="no-print" style="position:absolute; bottom:0px; height:25px; left:58px; right: 0px; overflow:hidden; background-color: #3c6478;">
+		<select id="doczoom">
+			<option value=".25">25%</option>
+			<option value=".50">50%</option>
+			<option value=".75">75%</option>
+			<option value="1" selected>100%</option>
+			<option value="1.25">125%</option>
+			<option value="1.5">150%</option>
+			<option value="1.75">175%</option>
+			<option value="2">200%</option>
+		</select>
+    </div>
+
+
+
+
+
+<script>
+function openRibbonTab(evt, tabName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("ribboncontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" tabactive", "");
+  }
+  document.getElementById(tabName).style.display = "block";
+  if(tabName != "File") evt.currentTarget.className += " tabactive";}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+<script>
+document.getElementById("doczoom").addEventListener("change", docZoom);
+
+function docZoom() {
+  var selval = document.getElementById("doczoom").value;
+  var elem = document.getElementById("content");
+
+//  elem.style.transform = "scale("+ selval + ")";
+//  elem.style.width = selval * 100 + "%";
+//  elem.style.height = selval * 100 + "%";
+	elem.style.zoom = selval;
+}
+</script>
+
+
+
+
+
+</body>
+</html>

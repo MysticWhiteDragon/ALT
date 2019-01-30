@@ -1,0 +1,168 @@
+	<section class="sheet padding-10mm">
+		<table style="height: 229mm; border-spacing: 0px; border-collapse: collapse;">
+			<tr>
+				<td>
+					<table style="width: 156mm;">
+						<tr>
+							<td colspan="2"></td>
+							<td colspan="4" style="text-align: right;">( ＿＿ / 20)<br><br>＿ 年生&nbsp;&nbsp;＿ 組&nbsp;&nbsp;＿＿ 番後／名前(＿＿)<br><br></td>
+						</tr>
+						<tr>
+							<td colspan="6"  style="height: .5mm; border-top: 3px solid black; border-bottom: 1px solid black;"></td>
+						</tr>
+						<tr style="height: 3mm;"><td colspan="6"></td></tr>
+						<tr class="vheightj">
+							<td style="width: 20mm; text-align: right;">1&nbsp;)</td>
+							<td style="width: 45mm;"><textarea rows="1" spellcheck="true" lang="jp" draggable="false" placeholder="日本語　1"></textarea></td>
+							<td style="width: 10mm; text-align: right;"><textarea rows="1" spellcheck="true" draggable="false" placeholder="-" style="width: 10mm; text-align: center;"></textarea></td>
+							<td style="width: 25mm; text-align: right;">11&nbsp;)</td>
+							<td style="width: 45mm;"><textarea rows="1" spellcheck="true" lang="jp" draggable="false" placeholder="日本語　11"></textarea></td>
+							<td style="width: 10mm; text-align: right;"><textarea rows="1" spellcheck="true" draggable="false" placeholder="-" style="width: 10mm; text-align: center;"></textarea></td>
+						</tr>
+						<tr class="vheight">
+							<td></td>
+							<td colspan="2" class="vlist"><textarea rows="1" spellcheck="true" lang="en" draggable="false" placeholder="English 1"></textarea></td>
+							<td></td>
+							<td colspan="2" class="vlist"><textarea rows="1" spellcheck="true" lang="en" draggable="false" placeholder="English 11"></textarea></</td>
+						</tr>
+						<tr class="vheightj">
+							<td style="text-align: right;">2&nbsp;)</td>
+							<td style=""><textarea rows="1" spellcheck="true" lang="jp" draggable="false" placeholder="日本語　2"></textarea></td>
+							<td style="text-align: right;"><textarea rows="1" spellcheck="true" draggable="false" placeholder="-" style="width: 10mm; text-align: center;"></textarea></td>
+							<td style="text-align: right;">12&nbsp;)</td>
+							<td style=""><textarea rows="1" spellcheck="true" lang="jp" draggable="false" placeholder="日本語　12"></textarea></td>
+							<td style="text-align: right;"><textarea rows="1" spellcheck="true" draggable="false" placeholder="-" style="width: 10mm; text-align: center;"></textarea></td>
+						</tr>
+						<tr class="vheight">
+							<td></td>
+							<td colspan="2" class="vlist"><textarea rows="1" spellcheck="true" lang="en" draggable="false" placeholder="English 2"></textarea></td>
+							<td></td>
+							<td colspan="2" class="vlist"><textarea rows="1" spellcheck="true" lang="en" draggable="false" placeholder="English 12"></textarea></</td>
+						</tr>
+						<tr class="vheightj">
+							<td style="text-align: right;">3&nbsp;)</td>
+							<td style=""><textarea rows="1" spellcheck="true" lang="jp" draggable="false" placeholder="日本語　3"></textarea></td>
+							<td style="text-align: right;"><textarea rows="1" spellcheck="true" draggable="false" placeholder="-" style="width: 10mm; text-align: center;"></textarea></td>
+							<td style="text-align: right;">13&nbsp;)</td>
+							<td style=""><textarea rows="1" spellcheck="true" lang="jp" draggable="false" placeholder="日本語　13"></textarea></td>
+							<td style="text-align: right;"><textarea rows="1" spellcheck="true" draggable="false" placeholder="-" style="width: 10mm; text-align: center;"></textarea></td>
+						</tr>
+						<tr class="vheight">
+							<td></td>
+							<td colspan="2" class="vlist"><textarea rows="1" spellcheck="true" lang="en" draggable="false" placeholder="English 3"></textarea></td>
+							<td></td>
+							<td colspan="2" class="vlist"><textarea rows="1" spellcheck="true" lang="en" draggable="false" placeholder="English 13"></textarea></</td>
+						</tr>
+						<tr class="vheightj">
+							<td style="text-align: right;">4&nbsp;)</td>
+							<td style=""><textarea rows="1" spellcheck="true" lang="jp" draggable="false" placeholder="日本語　4"></textarea></td>
+							<td style="text-align: right;"><textarea rows="1" spellcheck="true" draggable="false" placeholder="-" style="width: 10mm; text-align: center;"></textarea></td>
+							<td style="text-align: right;">14&nbsp;)</td>
+							<td style=""><textarea rows="1" spellcheck="true" lang="jp" draggable="false" placeholder="日本語　14"></textarea></td>
+							<td style="text-align: right;"><textarea rows="1" spellcheck="true" draggable="false" placeholder="-" style="width: 10mm; text-align: center;"></textarea></td>
+						</tr>
+						<tr class="vheight">
+							<td></td>
+							<td colspan="2" class="vlist"><textarea rows="1" spellcheck="true" lang="en" draggable="false" placeholder="English 4"></textarea></td>
+							<td></td>
+							<td colspan="2" class="vlist"><textarea rows="1" spellcheck="true" lang="en" draggable="false" placeholder="English 14"></textarea></</td>
+						</tr>
+						<tr class="vheightj">
+							<td style="text-align: right;">5&nbsp;)</td>
+							<td style=""><textarea rows="1" spellcheck="true" lang="jp" draggable="false" placeholder="日本語　5"></textarea></td>
+							<td style="text-align: right;"><textarea rows="1" spellcheck="true" draggable="false" placeholder="-" style="width: 10mm; text-align: center;"></textarea></td>
+							<td style="text-align: right;">15&nbsp;)</td>
+							<td style=""><textarea rows="1" spellcheck="true" lang="jp" draggable="false" placeholder="日本語　15"></textarea></td>
+							<td style="text-align: right;"><textarea rows="1" spellcheck="true" draggable="false" placeholder="-" style="width: 10mm; text-align: center;"></textarea></td>
+						</tr>
+						<tr class="vheight">
+							<td></td>
+							<td colspan="2" class="vlist"><textarea rows="1" spellcheck="true" lang="en" draggable="false" placeholder="English 5"></textarea></td>
+							<td></td>
+							<td colspan="2" class="vlist"><textarea rows="1" spellcheck="true" lang="en" draggable="false" placeholder="English 15"></textarea></</td>
+						</tr>
+						<tr class="vheightj">
+							<td style="text-align: right;">6&nbsp;)</td>
+							<td style=""><textarea rows="1" spellcheck="true" lang="jp" draggable="false" placeholder="日本語　6"></textarea></td>
+							<td style="text-align: right;"><textarea rows="1" spellcheck="true" draggable="false" placeholder="-" style="width: 10mm; text-align: center;"></textarea></td>
+							<td style="text-align: right;">16&nbsp;)</td>
+							<td style=""><textarea rows="1" spellcheck="true" lang="jp" draggable="false" placeholder="日本語　16"></textarea></td>
+							<td style="text-align: right;"><textarea rows="1" spellcheck="true" draggable="false" placeholder="-" style="width: 10mm; text-align: center;"></textarea></td>
+						</tr>
+						<tr class="vheight">
+							<td></td>
+							<td colspan="2" class="vlist"><textarea rows="1" spellcheck="true" lang="en" draggable="false" placeholder="English 6"></textarea></td>
+							<td></td>
+							<td colspan="2" class="vlist"><textarea rows="1" spellcheck="true" lang="en" draggable="false" placeholder="English 16"></textarea></</td>
+						</tr>
+						<tr class="vheightj">
+							<td style="text-align: right;">7&nbsp;)</td>
+							<td style=""><textarea rows="1" spellcheck="true" lang="jp" draggable="false" placeholder="日本語　7"></textarea></td>
+							<td style="text-align: right;"><textarea rows="1" spellcheck="true" draggable="false" placeholder="-" style="width: 10mm; text-align: center;"></textarea></td>
+							<td style="text-align: right;">17&nbsp;)</td>
+							<td style=""><textarea rows="1" spellcheck="true" lang="jp" draggable="false" placeholder="日本語　17"></textarea></td>
+							<td style="text-align: right;"><textarea rows="1" spellcheck="true" draggable="false" placeholder="-" style="width: 10mm; text-align: center;"></textarea></td>
+						</tr>
+						<tr class="vheight">
+							<td></td>
+							<td colspan="2" class="vlist"><textarea rows="1" spellcheck="true" lang="en" draggable="false" placeholder="English 7"></textarea></td>
+							<td></td>
+							<td colspan="2" class="vlist"><textarea rows="1" spellcheck="true" lang="en" draggable="false" placeholder="English 17"></textarea></</td>
+						</tr>
+						<tr class="vheightj">
+							<td style="text-align: right;">8&nbsp;)</td>
+							<td style=""><textarea rows="1" spellcheck="true" lang="jp" draggable="false" placeholder="日本語　8"></textarea></td>
+							<td style="text-align: right;"><textarea rows="1" spellcheck="true" draggable="false" placeholder="-" style="width: 10mm; text-align: center;"></textarea></td>
+							<td style="text-align: right;">18&nbsp;)</td>
+							<td style=""><textarea rows="1" spellcheck="true" lang="jp" draggable="false" placeholder="日本語　18"></textarea></td>
+							<td style="text-align: right;"><textarea rows="1" spellcheck="true" draggable="false" placeholder="-" style="width: 10mm; text-align: center;"></textarea></td>
+						</tr>
+						<tr class="vheight">
+							<td></td>
+							<td colspan="2" class="vlist"><textarea rows="1" spellcheck="true" lang="en" draggable="false" placeholder="English 8"></textarea></td>
+							<td></td>
+							<td colspan="2" class="vlist"><textarea rows="1" spellcheck="true" lang="en" draggable="false" placeholder="English 18"></textarea></</td>
+						</tr>
+						<tr class="vheightj">
+							<td style="text-align: right;">9&nbsp;)</td>
+							<td style=""><textarea rows="1" spellcheck="true" lang="jp" draggable="false" placeholder="日本語　9"></textarea></td>
+							<td style="text-align: right;"><textarea rows="1" spellcheck="true" draggable="false" placeholder="-" style="width: 10mm; text-align: center;"></textarea></td>
+							<td style="text-align: right;">19&nbsp;)</td>
+							<td style=""><textarea rows="1" spellcheck="true" lang="jp" draggable="false" placeholder="日本語　19"></textarea></td>
+							<td style="text-align: right;"><textarea rows="1" spellcheck="true" draggable="false" placeholder="-" style="width: 10mm; text-align: center;"></textarea></td>
+						</tr>
+						<tr class="vheight">
+							<td></td>
+							<td colspan="2" class="vlist"><textarea rows="1" spellcheck="true" lang="en" draggable="false" placeholder="English 9"></textarea></td>
+							<td></td>
+							<td colspan="2" class="vlist"><textarea rows="1" spellcheck="true" lang="en" draggable="false" placeholder="English 19"></textarea></</td>
+						</tr>
+						<tr class="vheightj">
+							<td style="text-align: right;">10&nbsp;)</td>
+							<td style=""><textarea rows="1" spellcheck="true" lang="jp" draggable="false" placeholder="日本語　10"></textarea></td>
+							<td style="text-align: right;"><textarea rows="1" spellcheck="true" draggable="false" placeholder="-" style="width: 10mm; text-align: center;"></textarea></td>
+							<td style="text-align: right;">20&nbsp;)</td>
+							<td style=""><textarea rows="1" spellcheck="true" lang="jp" draggable="false" placeholder="日本語　20"></textarea></td>
+							<td style="text-align: right;"><textarea rows="1" spellcheck="true" draggable="false" placeholder="-" style="width: 10mm; text-align: center;"></textarea></td>
+						</tr>
+						<tr class="vheight">
+							<td></td>
+							<td colspan="2" class="vlist"><textarea rows="1" spellcheck="true" lang="en" draggable="false" placeholder="English 10"></textarea></td>
+							<td></td>
+							<td colspan="2" class="vlist"><textarea rows="1" spellcheck="true" lang="en" draggable="false" placeholder="English 20"></textarea></</td>
+						</tr>
+
+					</table>
+				</td>
+				<td style="border-right: 2px dotted black; width: 10mm;"></td><td style="width: 10mm;"></td>
+				<td style="width: 156mm;">
+				</td>
+			</tr>
+		</table>
+	</section>
+	<section class="sheet padding-10mm">
+		<table style="border-collapse: collapse;">
+			<tr><td class="vlist">1</td><td class="vlist">日本語</td><td class="vlist"></td><td class="vlist"></td><td class="vlist">English</td></tr>
+			<tr><td class="vlist">2</td><td class="vlist">日本語</td><td class="vlist"></td><td class="vlist"></td><td class="vlist">English</td></tr>
+		</table>
+	</section>
