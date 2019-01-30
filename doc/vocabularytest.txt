@@ -7,7 +7,7 @@ body     .sheet { size: JB4 landscape; width: 364mm; height: 256mm; }
 .vheight textarea {
 	border: 1px dotted black;
 	width: 65mm;
-	height: 10mm;
+	height: 9mm;
 	font-family: 'didact_gothicregular';
 	font-size: 20pt;
 	line-height: 9mm;
@@ -15,7 +15,7 @@ body     .sheet { size: JB4 landscape; width: 364mm; height: 256mm; }
 	overflow: hidden;
 }
 
-.vheightj { vertical-align: bottom; height: 7mm; }
+.vheightj { vertical-align: bottom; height: 6mm; }
 .vheightj > td { vertical-align: bottom; font-size: 10pt;}
 .vheightj textarea {
 	border: 0;
@@ -34,7 +34,7 @@ body     .sheet { size: JB4 landscape; width: 364mm; height: 256mm; }
 			<tr>
 				<td>
 					<table style="width: 156mm;">
-						<tr>
+						<tr style="height: 30mm;">
 							<td colspan="2"></td>
 							<td colspan="4" style="text-align: right;">( ＿＿ / 20)<br><br>＿ 年生&nbsp;&nbsp;＿ 組&nbsp;&nbsp;＿＿ 番後／名前(＿＿)<br><br></td>
 						</tr>
