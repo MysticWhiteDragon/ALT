@@ -288,7 +288,8 @@ function docZoom() {
   xhr.send();
  }
  
- document.getElementsByName("body")[0].classList.add("A4", urld.searchParams.get('size'));
+ document.getElementsByName("body")[0].classList.add(urld.searchParams.get('size'));
+ document.getElementsByName("@page")[0].classList.add(urld.searchParams.get('size'));
 }
 </script>
 
