@@ -1,3 +1,33 @@
+<style>
+@page { size: B4 landscape; }
+
+.vlist { padding: 0 2mm; }
+.vheight { height: 10mm; }
+.vheight textarea {
+	border: 1px dotted black;
+	width: 65mm;
+	height: 10mm;
+	font-family: 'didact_gothicregular';
+	font-size: 20pt;
+	line-height: 9mm;
+	resize: none;
+	overflow: hidden;
+}
+
+.vheightj { height: 7mm; }
+.vheightj > td { vertical-align: bottom; font-size: 10pt;}
+.vheightj textarea {
+	border: 0;
+	width: 50mm;
+	font-family: 'didact_gothicregular';
+	font-size: 10pt;
+	line-height: 3mm;
+	resize: none;
+	padding-top: 2mm;
+	padding-left: 2mm;
+	overflow: hidden;
+}
+</style>
 	<section class="sheet padding-10mm">
 		<table style="height: 229mm; border-spacing: 0px; border-collapse: collapse;">
 			<tr>
