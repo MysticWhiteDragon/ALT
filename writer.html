@@ -287,6 +287,8 @@ function docZoom() {
      xhr.setRequestHeader('Content-type', 'text/html');
   xhr.send();
  }
+ 
+ document.getElementsByName("body").className += urld.searchParams.get("size");
 }
 </script>
 
