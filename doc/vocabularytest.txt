@@ -3,7 +3,7 @@
 body     .sheet { size: JB4 landscape; width: 364mm; height: 256mm; }
 
 .vlist { padding: 0 2mm; }
-.vheight { vertical-align: bottom; fheight: 10mm; }
+.vheight { vertical-align: bottom; height: 10mm; }
 .vheight textarea {
 	border: 1px dotted black;
 	width: 65mm;
