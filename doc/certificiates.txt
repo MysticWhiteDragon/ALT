@@ -1,0 +1,22 @@
+<style>
+@page { size: A4 landscape; }
+body     .sheet { size: A4 landscape; width: 297mm; height: 209mm; }
+
+.cert textarea {
+	border: 0;
+	font-family: 'didact_gothicregular';
+	font-size: 24pt;
+	line-height: 9mm;
+	resize: none;
+	padding-top: 2mm;
+	padding-left: 2mm;
+	overflow: hidden;
+	text-align: center;
+}
+</style>
+<section class="cert sheet padding-0mm" style="background-image: url('./doc/img/cert-blue.png'); background-size: 297mm 209mm;">
+	<textarea rows="1" draggable="false" placeholder="《 Student's Name 》" style="border: 0; border-bottom: 1px solid black; resize: none; background-color: transparent; position: absolute; top: 75mm; left: 100mm; width: 150mm;"></textarea>
+</section>
+<section class="cert sheet padding-0mm" style="background-image: url('./doc/img/cert-gold.png'); background-size: 297mm 209mm;">
+	<textarea rows="1" draggable="false" placeholder="《 Student's Name 》" style="border: 0; border-bottom: 1px solid black; resize: none; background-color: transparent; position: absolute; top: 75mm; left: 100mm; width: 150mm;"></textarea>
+</section>

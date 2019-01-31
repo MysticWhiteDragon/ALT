@@ -3,6 +3,8 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 <link rel="stylesheet" type="text/css" href="css/menu.css">
+<link rel="stylesheet" type="text/css" href="css/paper.css">
+<link rel="stylesheet" type="text/css" href="css/ribbonui.css">
 <title></title>
 <style>
 </style>
@@ -11,9 +13,204 @@
 <input id="hamburger" class="hamburger" type="checkbox" />
 <label for="hamburger" class="hamburger"><i></i><text><close>close</close><open>menu</open></text></label>
 <script language="JavaScript" src="js/menu.js"></script>
-<div id="conent" style="padding: 10px; position: absolute; top:0px; bottom: 0px; left: 58px; right: 0px; overflow: scroll;">
-	<h1>Not Yet Availale.</h1>
-	<p>Hopefully Coming Soon.</p>
-</div>
+	<div id="header" class="no-print" style="position:absolute; top:0px; left:58px; right: 0px; height:165px;overflow:hidden;">
+		<titlebar>Sheets<div class="buttons"><span class="btn-min"></span><span class="btn-max"></span><span class="btn-close"></span></div></titlebar>
+		<ribbonui>
+			<ribbontabs>
+				<button class="tablinks tabfile" onclick="openRibbonTab(event, 'File')">File</button>
+				<button class="tablinks" onclick="openRibbonTab(event, 'Home')" id="defaultOpen">Home</button>
+				<button class="tablinks" onclick="openRibbonTab(event, 'Insert')" id="defaultOpen">Insert</button>
+				<button class="tablinks" onclick="openRibbonTab(event, 'Page')" id="defaultOpen">Page Layout</button>
+				<button class="tablinks" onclick="openRibbonTab(event, 'Formulas')" id="defaultOpen">Formulas</button>
+				<button class="tablinks" onclick="openRibbonTab(event, 'Data')" id="defaultOpen">Data</button>
+				<button class="tablinks" onclick="openRibbonTab(event, 'Review')" id="defaultOpen">Review</button>
+				<button class="tablinks" onclick="openRibbonTab(event, 'View')" id="defaultOpen">View</button>
+			</ribbontabs>
+			<ribboncontents>
+				<div id="File" class="ribboncontent">
+					File 
+				</div>
+				<div id="Home" class="ribboncontent">
+					<ribbongroup title="Clipboard">
+						-----------
+					</ribbongroup>
+					<ribbongroup title="Font">
+						-----------
+					</ribbongroup>
+					<ribbongroup title="Alignment">
+						-----------
+					</ribbongroup>
+					<ribbongroup title="Number">
+						-----------
+					</ribbongroup>
+					<ribbongroup title="Styles">
+						-----------
+					</ribbongroup>
+					<ribbongroup title="Cells">
+						-----------
+					</ribbongroup>
+					<ribbongroup title="Editing">
+						-----------
+					</ribbongroup>
+				</div>
+				<div id="Insert" class="ribboncontent">
+					<ribbongroup title="Tables">
+						-----------
+					</ribbongroup>
+					<ribbongroup title="Illustrations">
+						-----------
+					</ribbongroup>
+					<ribbongroup title="Add-ins">
+						-----------
+					</ribbongroup>
+					<ribbongroup title="Charts">
+						-----------
+					</ribbongroup>
+					<ribbongroup title="Sparklines">
+						-----------
+					</ribbongroup>
+					<ribbongroup title="Filters">
+						-----------
+					</ribbongroup>
+					<ribbongroup title="Links">
+						-----------
+					</ribbongroup>
+					<ribbongroup title="Text">
+						-----------
+					</ribbongroup>
+					<ribbongroup title="Symbols">
+						-----------
+					</ribbongroup>
+				</div>
+				<div id="Page" class="ribboncontent">
+					<ribbongroup title="Themes">
+						-----------
+					</ribbongroup>
+					<ribbongroup title="Page Setup">
+						-----------
+					</ribbongroup>
+					<ribbongroup title="Scale to Fit">
+						-----------
+					</ribbongroup>
+					<ribbongroup title="Sheet Options">
+						-----------
+					</ribbongroup>
+					<ribbongroup title="Arrange">
+						-----------
+					</ribbongroup>
+				</div>
+				<div id="Formulas" class="ribboncontent">
+					<ribbongroup title="Function Library">
+						-----------
+					</ribbongroup>
+					<ribbongroup title="Defined Names">
+						-----------
+					</ribbongroup>
+					<ribbongroup title="Formula Auditing">
+						-----------
+					</ribbongroup>
+					<ribbongroup title="Calculation">
+						-----------
+					</ribbongroup>
+				</div>
+				<div id="Data" class="ribboncontent">
+					<ribbongroup title="Get External Data">
+						-----------
+					</ribbongroup>
+					<ribbongroup title="Connections">
+						-----------
+					</ribbongroup>
+					<ribbongroup title="Sort & Filter">
+						-----------
+					</ribbongroup>
+					<ribbongroup title="Data Tools">
+						-----------
+					</ribbongroup>
+					<ribbongroup title="Outline">
+						-----------
+					</ribbongroup>
+				</div>
+				<div id="Review" class="ribboncontent">
+					<ribbongroup title="Proofing">
+						-----------
+					</ribbongroup>
+					<ribbongroup title="Lanuage">
+						-----------
+					</ribbongroup>
+					<ribbongroup title="Comments">
+						-----------
+					</ribbongroup>
+					<ribbongroup title="Canges">
+						-----------
+					</ribbongroup>
+				</div>
+				<div id="View" class="ribboncontent">
+					<ribbongroup title="Workbook Views">
+						-----------
+					</ribbongroup>
+					<ribbongroup title="Show">
+						-----------
+					</ribbongroup>
+					<ribbongroup title="Zoom">
+						-----------
+					</ribbongroup>
+					<ribbongroup title="Window">
+						-----------
+					</ribbongroup>
+					<ribbongroup title="Macros">
+						-----------
+					</ribbongroup>
+				</div>
+			</ribboncontents>
+		</ribbonui>
+	</div>
+	<div id="docspace">
+	<div id="content" style="padding: 10px; position: absolute; top:0px; bottom: 0px; left: 58px; right: 0px; overflow: scroll;">
+	</div>
+	</div>
+    <div id="footer"  class="no-print" style="position:absolute; bottom:0px; height:25px; left:58px; right: 0px; overflow:hidden; background-color: #3c6478;">
+		<select id="doczoom">
+			<option value=".25">25%</option>
+			<option value=".50">50%</option>
+			<option value=".75">75%</option>
+			<option value="1" selected>100%</option>
+			<option value="1.25">125%</option>
+			<option value="1.5">150%</option>
+			<option value="1.75">175%</option>
+			<option value="2">200%</option>
+		</select>
+    </div>
+
+
+
+<script>
+function openRibbonTab(evt, tabName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("ribboncontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" tabactive", "");
+  }
+  document.getElementById(tabName).style.display = "block";
+  if(tabName != "File") evt.currentTarget.className += " tabactive";}
+
+//  Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+<script>
+document.getElementById("doczoom").addEventListener("change", docZoom);
+
+function docZoom() {
+  var selval = document.getElementById("doczoom").value;
+  var elem = document.getElementById("content");
+
+	elem.style.zoom = selval;
+	elem.style.MozTransform = 'scale(' + selval + ')';
+}
+</script>
+
 </body>
 </html>

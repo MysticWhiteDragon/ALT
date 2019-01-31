@@ -9,6 +9,7 @@ document.writeln('				</ul>');
 document.writeln('			</li>');
 document.writeln('			<li><a title="Documents" href="#documents"><svg class="icon"><use xlink:href="#icon-th-large"></use></svg> Document Templates</a>');
 document.writeln('				<ul class="secnav">');
+document.writeln('					<li><a title="Certificates" href="writer.html?doc=certificiates&size=A4&or=l">Certificates<div class="tag">Size: A4</div></a></li>');
 document.writeln('					<li><a title="Vocabulary Test" href="writer.html?doc=vocabularytest&size=JB4&or=l">Vocabulary Test<div class="tag">Size: B4</div></a></li>');
 document.writeln('				</ul>');
 document.writeln('			</li>');
