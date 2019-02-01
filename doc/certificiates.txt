@@ -15,8 +15,28 @@ body     .sheet { size: A4 landscape; width: 297mm; height: 209mm; }
 }
 </style>
 <section class="cert sheet padding-0mm" style="background-image: url('./doc/img/cert-blue.png'); background-size: 297mm 209mm;">
-	<textarea rows="1" draggable="false" placeholder="《 Student's Name 》" style="border: 0; border-bottom: 1px solid black; resize: none; background-color: transparent; position: absolute; top: 75mm; left: 100mm; width: 150mm;"></textarea>
+	<div style="text-align: center; background-color: transparent; position: absolute; top: 35mm; left: 100mm; width: 150mm;">
+		<span style="font-family: Algerian; font-size: 26pt; ">Certificate of Accomplishment</span><br>
+		<span style="font-family: 'Palace Script MT'; font-size: 48pt; ">This certificate is awarded to</span>
+	</div>
+	<textarea rows="1" draggable="false" placeholder="《 Student's Name 》" style="border: 0; border-bottom: 1px solid black; resize: none; background-color: transparent; position: absolute; top: 85mm; left: 100mm; width: 150mm;"></textarea>
+	<div contentEditable="true" style="font: italic bold 24pt 'Times New Roman'; text-align: center; background-color: transparent; position: absolute; top: 100mm; left: 100mm; width: 150mm;">
+		for their outstanding performance<br>on the English vocabulary test.
+	</div>
+	<div contentEditable="true" style="font: italic bold 24pt 'Times New Roman'; text-align: center; background-color: transparent; position: absolute; top: 135mm; left: 100mm; width: 150mm;">Month ##, 20##</div>
+	<div contentEditable="true" style="border-top: 1px solid black; font: bold 12pt 'Times New Roman'; text-align: center; background-color: transparent; position: absolute; top: 165mm; left: 100mm; width: 65mm;" >《 Name 》<br>《 Position 》</div>
+	<div contentEditable="true" style="border-top: 1px solid black; font: bold 12pt 'Times New Roman'; text-align: center; background-color: transparent; position: absolute; top: 165mm; left: 190mm; width: 65mm;" >《 Name 》<br>《 Position 》</div>
 </section>
 <section class="cert sheet padding-0mm" style="background-image: url('./doc/img/cert-gold.png'); background-size: 297mm 209mm;">
-	<textarea rows="1" draggable="false" placeholder="《 Student's Name 》" style="border: 0; border-bottom: 1px solid black; resize: none; background-color: transparent; position: absolute; top: 75mm; left: 100mm; width: 150mm;"></textarea>
+	<div style="text-align: center; background-color: transparent; position: absolute; top: 35mm; left: 100mm; width: 150mm;">
+		<span style="font-family: Algerian; font-size: 26pt; ">Certificate of Accomplishment</span><br>
+		<span style="font-family: 'Palace Script MT'; font-size: 48pt; ">This certificate is awarded to</span>
+	</div>
+	<textarea rows="1" draggable="false" placeholder="《 Student's Name 》" style="border: 0; border-bottom: 1px solid black; resize: none; background-color: transparent; position: absolute; top: 85mm; left: 100mm; width: 150mm;"></textarea>
+	<div contentEditable="true" style="font: italic bold 24pt 'Times New Roman'; text-align: center; background-color: transparent; position: absolute; top: 100mm; left: 100mm; width: 150mm;">
+		for their outstanding performance<br>for three years of English study.
+	</div>
+	<div contentEditable="true" style="font: italic bold 24pt 'Times New Roman'; text-align: center; background-color: transparent; position: absolute; top: 135mm; left: 100mm; width: 150mm;">Month ##, 20##</div>
+	<div contentEditable="true" style="border-top: 1px solid black; font: bold 12pt 'Times New Roman'; text-align: center; background-color: transparent; position: absolute; top: 165mm; left: 100mm; width: 65mm;" >《 Name 》<br>《 Position 》</div>
+	<div contentEditable="true" style="border-top: 1px solid black; font: bold 12pt 'Times New Roman'; text-align: center; background-color: transparent; position: absolute; top: 165mm; left: 190mm; width: 65mm;" >《 Name 》<br>《 Position 》</div>
 </section>
