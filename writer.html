@@ -7,6 +7,31 @@
 <link rel="stylesheet" type="text/css" href="css/paper.css">
 <link rel="stylesheet" type="text/css" href="css/ribbonui.css">
 <style>
+.upload-btn-wrapper {
+	posiion: relative;
+	overflow: hidden;
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+}
+
+.btn {
+	border: 2px solid gray;
+	color: gray;
+	background-color: white;
+	padding: 8px 20px;
+	border-radius: 8px;
+	font-size: 10px;
+	font-weight: bold;
+}
+
+.upload-btn-wrapper input[type=file] {
+	font-size: 100px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	opacity: 0;
+}
 </style>
 </head>
 <body onload="OpenDoc()">
@@ -33,7 +58,12 @@
 	</ribbontabs>
 	<ribboncontents>
 		<div id="File" class="ribboncontent">
-			File 
+			<div style="position: relative; float: left; top: 15px; left: 15px;">
+				<label class="btn" for="fileToLoad">Open</label>
+				<input style="position: absolute; top: 0; left: 0; width: 0; height: 0;" id="fileToLoad" name="file" type="file"  onchange="loadAsText()" />&nbsp;|&nbsp;
+				<button class="btn" onclick="saveAsFile()">Save</button>
+			</div>
+
 		</div>
 		<div id="Home" class="ribboncontent">
 			<ribbongroup title="Clipboard">
@@ -295,6 +325,71 @@ function docZoom() {
 	document.body.classList.add("landscape");
  }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+function loadAsText()
+{
+    var fileToLoad = document.getElementById("fileToLoad").files[0];
+ 
+    var fileReader = new FileReader();
+    fileReader.onload = function(fileLoadedEvent) 
+    {
+        var textFromFileLoaded = fileLoadedEvent.target.result;
+		document.getElementById("content").innerHTML = textFromFileLoaded;
+   };
+    fileReader.readAsText(fileToLoad, "UTF-8");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function destroyClickedElement(event)
+{
+    document.body.removeChild(event.target);
+}
+
+function saveAsFile()
+{
+    var textToSave	= document.getElementById("content").innerHTML;
+    var textToSaveAsBlob = new Blob([textToSave], {type:"text/plain"});
+    var textToSaveAsURL = window.URL.createObjectURL(textToSaveAsBlob);
+//    var fileNameToSaveAs = document.getElementById("inputFileNameToSaveAs").value;
+ 
+    var downloadLink = document.createElement("a");
+//    downloadLink.download = fileNameToSaveAs;
+    downloadLink.download = "";
+    downloadLink.innerHTML = "Download File";
+    downloadLink.href = textToSaveAsURL;
+    downloadLink.onclick = destroyClickedElement;
+    downloadLink.style.display = "none";
+    document.body.appendChild(downloadLink);
+ 
+    downloadLink.click();
+}
+
 </script>
 
 
